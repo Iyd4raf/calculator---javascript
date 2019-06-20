@@ -1,4 +1,4 @@
 # calculator---javascript
 
 
-Simple calculator created with javascript
+Simple calculator application created with JavaScript
