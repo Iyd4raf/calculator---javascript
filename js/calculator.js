@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var DOM = {
   buttons: document.querySelector('.buttons'),
   input: document.querySelector('input'),
@@ -357,7 +356,6 @@ else if (num[0] && !num[1]) {
 
 
 
-=======
 var DOM = {
   buttons: document.querySelector('.buttons'),
   input: document.querySelector('input'),
@@ -716,4 +714,3 @@ else if (num[0] && !num[1]) {
 
 
 
->>>>>>> 3abae9eeffcf4b87a0c69ca01f138899dda655be
