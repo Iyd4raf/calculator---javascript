@@ -14,6 +14,7 @@ var calculator = {
 
 
 
+
 var result;
 var calcStr;
 var operator;
@@ -30,9 +31,9 @@ var secondValue;
 function init()	{
     num = [0, 0];
     curNum = 0;
-	result = 0;
-	calcStr = '';
-	equalsClicked = false;
+    result = 0;
+    calcStr = '';
+    equalsClicked = false;
     numberClicked = false;
     operatorClicked = false;
     firstValue = false;
@@ -51,7 +52,6 @@ window.addEventListener('load', init);
 
 function main(e) {
   
-  var btnClicked = e.target;
   var isBtnNumber = e.target.classList.contains('number');
   var isBtnOperator = e.target.classList.contains('operator');
   var isBtnEquals = e.target.classList.contains('equals');
@@ -67,7 +67,6 @@ function main(e) {
     opClicked(btnVal);
     
   } else if (isBtnEquals) {
-    
     
     eqClicked();
     
@@ -96,8 +95,7 @@ function calculate(n1, n2, operator) {
 
 
 function numClicked(btnVal) {
-  
-  
+
   
   if (equalsClicked) {
     curNum = 0;
@@ -116,7 +114,6 @@ function numClicked(btnVal) {
     } else {
       num[curNum] = btnVal;
     }
-    
     
     //else if (btnVal === '0') {
     //    num[curNum] = btn;
